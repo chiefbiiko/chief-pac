@@ -1,6 +1,6 @@
 # chief-pac
 
-[![build status](http://img.shields.io/travis//fraud.svg?style=flat)](http://travis-ci.org/chiefbiiko/fraud) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/chiefbiiko/fraud?branch=master&svg=true)](https://ci.appveyor.com/project/chiefbiiko/fraud)
+[![build status](http://img.shields.io/travis/chiefbiiko/chief-pac.svg?style=flat)](http://travis-ci.org/chiefbiiko/chief-pac) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/chiefbiiko/chief-pac?branch=master&svg=true)](https://ci.appveyor.com/project/chiefbiiko/chief-pac)
 
 ***
 
