@@ -14,6 +14,8 @@ CLI to add plumbing files to a directory instantly: `.gitignore`, `.travis.yml`,
 npm install -g chief-pac
 ```
 
+***
+
 ## Usage
 
 ```

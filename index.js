@@ -26,7 +26,7 @@ function replaceOF (stryng, find, repl) {
 
 var help =
 'usage: chief-pac [dir] [-user=xyz] [-force]\n' +
-'  dir:   directory, default cwd\n' +
+'  dir: directory, default cwd\n' +
 '  -user: set username to write to docs\n' +
 '  -force: overwrite existing files?'
 
