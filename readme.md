@@ -19,9 +19,12 @@ npm install -g chief-pac
 ## Usage
 
 ```
-usage: chief-pac [dir] [-user=xyz] [-force]
+usage: chief-pac [dir] [github=xyz] [name=xyz] [-force]
+       chief-pac set github=xyz|name=abc
+
   dir: directory, default cwd
-  -user: set username to write to docs
+  name: your real name
+  github: your name on github
   -force: overwrite existing files?
 ```
 
