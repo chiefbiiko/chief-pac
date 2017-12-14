@@ -1,0 +1,32 @@
+{
+  "name": "chief-pac",
+  "version": "0.0.0",
+  "description": "Add plumbing files instantly",
+  "main": "index.js",
+  "bin": {
+    "chief-pac": "./index.js"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiefbiiko/chief-pac.git"
+  },
+  "keywords": [
+    "chief"
+  ],
+  "author": "Noah Anabiik Schwarz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiefbiiko/chief-pac/issues"
+  },
+  "homepage": "https://github.com/chiefbiiko/chief-pac#readme",
+  "dependencies": {
+    "pump": "^2.0.0",
+    "tape": "^4.8.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0"
+  }
+}
