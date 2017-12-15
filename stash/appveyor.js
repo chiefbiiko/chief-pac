@@ -9,7 +9,7 @@ module.exports =
 '  - set PATH=%APPDATA%\npm;%PATH%\n' +
 '  - npm install\n' +
 'matrix:\n' +
-'  - fast_finish: true\n' +
+'  fast_finish: true\n' +
 'build: off\n' +
 'shallow_clone: true\n' +
 'test_script:\n' +
