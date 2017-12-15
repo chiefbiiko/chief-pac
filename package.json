@@ -1,6 +1,6 @@
 {
   "name": "chief-pac",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add plumbing files instantly",
   "bin": {
     "chief-pac": "./cli.js"
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/chiefbiiko/chief-pac#readme",
   "dependencies": {
-    "concat-stream": "^1.6.0",
     "pump": "^2.0.0"
   },
   "devDependencies": {
