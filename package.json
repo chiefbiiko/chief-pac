@@ -1,6 +1,6 @@
 {
   "name": "chief-pac",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add plumbing files instantly",
   "bin": {
     "chief-pac": "./cli.js"
