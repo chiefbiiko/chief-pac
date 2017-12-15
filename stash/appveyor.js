@@ -6,7 +6,7 @@ module.exports =
 '  - ps: Install-Product node $env:nodejs_version\n' +
 '  - set CI=true\n' +
 '  - npm install --global npm@latest\n' +
-'  - set PATH=%APPDATA%\npm;%PATH%\n' +
+'  - set PATH=%APPDATA%\\npm;%PATH%\n' +
 '  - npm install\n' +
 'matrix:\n' +
 '  fast_finish: true\n' +
