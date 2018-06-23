@@ -11,6 +11,7 @@ var git = require('./stash/ignore')
 var travis = require('./stash/travis')
 var appveyor = require('./stash/appveyor')
 var test = require('./stash/test')
+var security = require('./stash/security')
 
 var help =
 'usage: chief-pac [dir] [github=xyz] [name=xyz] [-force]\n' +
@@ -41,6 +42,7 @@ var git2 = path.join(dirpath, '.gitignore')
 var travis2 = path.join(dirpath, '.travis.yml')
 var appveyor2 = path.join(dirpath, 'appveyor.yml')
 var test2 = path.join(dirpath, 'test.js')
+var security2 = path.join(dirpath, 'security.md')
 
 var pending = 0
 var loggedDone = false
@@ -64,7 +66,7 @@ function readable (buf) {
   return r
 }
 
-function copy (data, to) {
+function write (data, to) {
   if (force || !fs.existsSync(to)) {
     pending++
     pump(readable(data), fs.createWriteStream(to), onWritten)
@@ -97,13 +99,13 @@ function onReady (err) {
     .replace(/20\d\d/, new Date().getFullYear())
     .replace('Noah Anabiik Schwarz', name || 'Noah Anabiik Schwarz')
 
-  copy(customReadme, readme2)
-  copy(customLicense, license2)
-  copy(git, git2)
-  copy(travis, travis2)
-  copy(appveyor, appveyor2)
-  copy(test, test2)
-
+  write(customReadme, readme2)
+  write(customLicense, license2)
+  write(git, git2)
+  write(travis, travis2)
+  write(appveyor, appveyor2)
+  write(test, test2)
+  write(security, security2)
 }
 
 if (wantsHelp) return console.log(help)
