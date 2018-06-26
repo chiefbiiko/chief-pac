@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// TODO: use minimist!!
+
 var fs = require('fs')
 var path = require('path')
 var stream = require('stream')
