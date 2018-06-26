@@ -5,13 +5,13 @@ var path = require('path')
 var stream = require('stream')
 var pump = require('pump')
 
-var readme = require('./stash/readme')
-var license = require('./stash/license')
-var git = require('./stash/ignore')
-var travis = require('./stash/travis')
-var appveyor = require('./stash/appveyor')
-var test = require('./stash/test')
-var security = require('./stash/security')
+var readme = require('./stash/readme.js')
+var license = require('./stash/license.js')
+var git = require('./stash/ignore.js')
+var travis = require('./stash/travis.js')
+var appveyor = require('./stash/appveyor.js')
+var test = require('./stash/test.js')
+var security = require('./stash/security.js')
 
 var help =
 'usage: chief-pac [dir] [github=xyz] [name=xyz] [-force]\n' +
