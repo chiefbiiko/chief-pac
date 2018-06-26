@@ -9,7 +9,6 @@ module.exports = 'This project participates in the Responsible Disclosure Policy
 
 '## Reporting a Security Issue\n\n' +
 
-'Any security related issue should be reported to the [Node.js Ecosystem](https://hackerone.com/nodejs-ecosystem
-) program hosted on HackerOne which follows the [3rd party responsible disclosure process](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md) set by the Node.js Security WG. One may also directly contact the project’s maintainers, but through the HackerOne program the Security WG members will take care of triaging the vulnerability and invite project maintainers to participate in the report.\n\n' +
+'Any security related issue should be reported to the [Node.js Ecosystem](https://hackerone.com/nodejs-ecosystem) program hosted on HackerOne which follows the [3rd party responsible disclosure process](https://github.com/nodejs/security-wg/blob/master/processes/third_party_vuln_process.md) set by the Node.js Security WG. One may also directly contact the project’s maintainers, but through the HackerOne program the Security WG members will take care of triaging the vulnerability and invite project maintainers to participate in the report.\n\n' +
 
 'As an alternative method, vulnerabilities can also be reported by emailing security-ecosystem@nodejs.org.'

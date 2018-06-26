@@ -13,7 +13,7 @@ tape('files are written to designated dir', function (t) {
 
   child.execSync('node cli ' + testDir)
 
-  t.is(fs.readdirSync(testDir).length, 6, 'files should have been written')
+  t.is(fs.readdirSync(testDir).length, 7, 'files should have been written')
 
   t.end()
 })

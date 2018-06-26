@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/chiefbiiko/chief-pac#readme",
   "dependencies": {
-    "pump": "^2.0.0"
+    "pump": "^2.0.1"
   },
   "devDependencies": {
     "del": "^3.0.0",
